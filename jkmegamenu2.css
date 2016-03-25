@@ -1,0 +1,89 @@
+
+
+
+.megamenu2{
+position:absolute;
+display:flex;
+flex-wrap:wrap;
+background:  -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8));
+background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6+*/
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+background: -o-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* IE10+ */
+border-color:#0866c6;
+border-width: 2px 0px 0px 0px; 
+padding: 10px;
+margin-top:15px;
+margin-left:600;
+z-index:100;
+width:855px;
+height:auto;
+border-style:solid;
+opacity: .95;
+filter:alpha(opacity=95);
+border-bottom-right-radius:4px;
+border-bottom-left-radius:4px;
+box-shadow: 2px 3px 2px  #888888;
+border-top-color: #E0EB7A;
+
+}
+
+
+
+
+.megamenu2>.column21{
+float: left;
+width: 150px; /*width of each menu column*/
+margin-left: 10px;
+height:133px;
+}
+
+.megamenu2>.column21 >ul{
+
+margin-left: 15px;
+padding: 0px;
+
+
+}
+
+div.i{
+width:35px;
+height:35px;
+float:left;}
+
+div.t{
+margin-left:px;
+width:auto;
+height:35px;
+padding-top:7px;
+overflow:hidden;
+}
+
+
+
+.megamenu2>.column21> ul >li{
+list-style-image:url("../images/icons/arrow2.png");
+padding-top:0px;
+padding-bottom:2px;
+border-radius:2px;
+
+}
+
+.megamenu2 >.column21 > ul  >li:hover{
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(115,177,231,0.95)), color-stop(50%,rgba(10,119,213,0.98)), color-stop(100%,rgba(83,159,225,1))); /* Chrome,Safari4+*/
+}
+
+
+
+.megamenu2>.column21>ul >li>a{
+padding-left:3px;
+text-decoration: none;
+color:white;
+font-size:10px;
+font-family:Lucida Sans Unicode;
+}
+
+.megamenu2>.column21> ul> li>a:hover{
+color:#3D147A;
+
+}
